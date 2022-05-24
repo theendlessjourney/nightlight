@@ -1,0 +1,7 @@
+[Unit]
+Description=My Night Light
+[Service]
+Environment=DISPLAY=:0
+ExecStart=/home/lhu/rust/nightlight/target/release/nightlight
+[Install]
+WantedBy=multi-user.target
